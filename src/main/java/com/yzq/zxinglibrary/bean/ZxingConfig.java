@@ -7,13 +7,6 @@ import com.yzq.zxinglibrary.R;
 
 import java.io.Serializable;
 
-/**
- * @author: yzq
- * @date: 2017/10/27 14:48
- * @declare :zxing配置类
- */
-
-
 public class ZxingConfig implements Serializable {
 
 

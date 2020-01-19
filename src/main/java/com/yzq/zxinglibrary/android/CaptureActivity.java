@@ -35,9 +35,6 @@ import java.io.IOException;
 
 
 /**
- * @author: yzq
- * @date: 2017/10/26 15:22
- * @declare :扫一扫
  */
 
 public class CaptureActivity extends AppCompatActivity implements SurfaceHolder.Callback, View.OnClickListener {
@@ -119,10 +116,6 @@ public class CaptureActivity extends AppCompatActivity implements SurfaceHolder.
     }
 
 
-    /**
-     * @param pm
-     * @return 是否有闪光灯
-     */
     public static boolean isSupportCameraLedFlash(PackageManager pm) {
         if (pm != null) {
             FeatureInfo[] features = pm.getSystemAvailableFeatures();
